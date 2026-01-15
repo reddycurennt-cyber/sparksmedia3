@@ -1,0 +1,535 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Sparks Media — Event Management, Vijayawada | South India</title>
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Swiper CSS (hero & sliders) -->
+  <link rel="stylesheet" href="https://unpkg.com/swiper@9/swiper-bundle.min.css" />
+
+  <!-- Font Awesome for icons -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" crossorigin="anonymous" />
+
+  <!-- Main stylesheet -->
+  <link rel="stylesheet" href="styles_Version5.css" />
+  <script src="main_Version5.js"></script>
+
+  <meta name="description" content="Sparks Media — Event management company based in Vijayawada, serving South India. 600+ events, 4 Times of India awards, 10+ years of experience." />
+</head>
+<body id="top">
+
+  <!-- Header / Navbar -->
+  <header class="site-header">
+    <div class="container header-inner">
+      <a class="brand" href="#top">
+        <img src="ChatGPT Image Dec 20, 2025, 02_38_49 PM.png" alt="Sparks Media logo" class="logo" />
+      </a>
+
+      <nav class="main-nav" aria-label="Main navigation">
+        <button class="nav-toggle" aria-controls="primary-navigation" aria-expanded="false" aria-label="Open menu">
+          <span class="hamburger"></span>
+        </button>
+
+        <ul id="primary-navigation" class="nav-list" role="menubar">
+          <li role="none"><a role="menuitem" href="#top" data-scroll>Home</a></li>
+
+          <li class="has-dropdown" role="none">
+            <a role="menuitem" href="#expertise" aria-haspopup="true" aria-expanded="false">Expertise <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown" role="menu" aria-label="Expertise menu">
+              <li role="none"><a role="menuitem" href="#expertise" data-scroll>Weddings</a></li>
+              <li role="none"><a role="menuitem" href="#expertise" data-scroll>Ceremonies</a></li>
+              <li role="none"><a role="menuitem" href="#expertise" data-scroll>Brand Promotions</a></li>
+              <li role="none"><a role="menuitem" href="#expertise" data-scroll>Movie Promotions</a></li>
+            </ul>
+          </li>
+
+          <li class="has-dropdown" role="none">
+            <a role="menuitem" href="#services" aria-haspopup="true" aria-expanded="false">Services <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown services-dropdown" role="menu" aria-label="Services menu">
+              <li role="none"><a role="menuitem" href="#services" data-scroll>Event Strategy</a></li>
+              <li role="none"><a role="menuitem" href="#services" data-scroll>Logistics & Operations</a></li>
+              <li role="none"><a role="menuitem" href="#services" data-scroll>Stage, Lighting & Design</a></li>
+              <li role="none"><a role="menuitem" href="#services" data-scroll>AV & Production</a></li>
+              <li role="none"><a role="menuitem" href="#services" data-scroll>Artist & Talent Management</a></li>
+              <li role="none"><a role="menuitem" href="#services" data-scroll>Venue Sourcing</a></li>
+              <li role="none"><a role="menuitem" href="#services" data-scroll>Event Marketing</a></li>
+              <li role="none"><a role="menuitem" href="#services" data-scroll>Sponsorship Management</a></li>
+            </ul>
+          </li>
+
+          <li role="none"><a role="menuitem" href="#portfolio" data-scroll>Portfolio</a></li>
+
+          <li class="has-dropdown" role="none">
+            <a role="menuitem" href="#media" aria-haspopup="true" aria-expanded="false">Media <i class="fa fa-caret-down"></i></a>
+            <ul class="dropdown" role="menu" aria-label="Media menu">
+              <li role="none"><a role="menuitem" href="#gallery" data-scroll>Photos</a></li>
+              <li role="none"><a role="menuitem" href="#gallery" data-scroll>Videos</a></li>
+            </ul>
+          </li>
+
+          <li role="none"><a role="menuitem" href="#about" data-scroll>About</a></li>
+          <li role="none"><a role="menuitem" href="#contact" data-scroll>Contact</a></li>
+        </ul>
+      </nav>
+    </div>
+
+    <!-- Nav Modal (opens on hamburger click at any resolution) -->
+    <div id="nav-modal" class="nav-modal" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Main menu">
+      <div class="nav-modal-inner container">
+        <button class="nav-modal-close" aria-label="Close menu"><i class="fa fa-times"></i></button>
+
+        <div class="nav-modal-content">
+          <!-- fallback copy of links for no-JS (kept consistent) -->
+          <nav class="nav-modal-list" aria-label="Navigation">
+            <ul>
+              <li><a href="#top" data-scroll>Home</a></li>
+              <li>
+                <button class="modal-dropdown-toggle">Expertise <i class="fa fa-caret-down"></i></button>
+                <ul class="modal-submenu">
+                  <li><a href="#expertise" data-scroll>Weddings</a></li>
+                  <li><a href="#expertise" data-scroll>Ceremonies</a></li>
+                  <li><a href="#expertise" data-scroll>Brand Promotions</a></li>
+                  <li><a href="#expertise" data-scroll>Movie Promotions</a></li>
+                </ul>
+              </li>
+
+              <li>
+                <button class="modal-dropdown-toggle">Services <i class="fa fa-caret-down"></i></button>
+                <ul class="modal-submenu">
+                  <li><a href="#services" data-scroll>Event Strategy</a></li>
+                  <li><a href="#services" data-scroll>Logistics & Operations</a></li>
+                  <li><a href="#services" data-scroll>Stage, Lighting & Design</a></li>
+                  <li><a href="#services" data-scroll>AV & Production</a></li>
+                  <li><a href="#services" data-scroll>Artist & Talent Management</a></li>
+                  <li><a href="#services" data-scroll>Venue Sourcing</a></li>
+                  <li><a href="#services" data-scroll>Event Marketing</a></li>
+                  <li><a href="#services" data-scroll>Sponsorship Management</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#portfolio" data-scroll>Portfolio</a></li>
+
+              <li>
+                <button class="modal-dropdown-toggle">Media <i class="fa fa-caret-down"></i></button>
+                <ul class="modal-submenu">
+                  <li><a href="#gallery" data-scroll>Photos</a></li>
+                  <li><a href="#gallery" data-scroll>Videos</a></li>
+                </ul>
+              </li>
+
+              <li><a href="#about" data-scroll>About</a></li>
+              <li><a href="#contact" data-scroll>Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <!-- HERO Section -->
+  <section id="hero" class="hero-section">
+    <!-- Swiper container -->
+    <div class="swiper hero-swiper">
+      <div class="swiper-wrapper">
+        <div class="swiper-slide" style="background-image:url('s8.png')"><div class="overlay"></div></div>
+        <div class="swiper-slide" style="background-image:url('s9.jpg')"><div class="overlay"></div></div>
+        <div class="swiper-slide" style="background-image:url('s10.jpg')"><div class="overlay"></div></div>
+        <div class="swiper-slide" style="background-image:url('s2.jpg')"><div class="overlay"></div></div>
+        <div class="swiper-slide" style="background-image:url('s3.jpg')"><div class="overlay"></div></div>
+      </div>
+      <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="hero-content container">
+      <h1 class="hero-title" id="hero-title">The best events and brand promotions company in south india</h1>
+      <p class="hero-sub">Turning ideas into iconic Events</p>
+      <div class="hero-actions">
+        <a href="#portfolio" class="btn btn-primary js-cta" data-scroll>See Our Work</a>
+        <a href="#contact" class="btn btn-outline js-cta" data-scroll>Get a Quote</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- ABOUT Section -->
+  <section id="about" class="about-section section">
+    <div class="container">
+      <div class="section-header">
+        <h2>About Sparks Media</h2>
+        <p>Founded by Ravikiran Jagupilla in Vijayawada — Serving across South India with creative event solutions.</p>
+      </div>
+
+      <div class="about-grid">
+        <div class="about-text">
+          <h3>Who we are</h3>
+          <p>
+            Sparks Media has delivered over 600 events across weddings, corporate events, brand activations and film promotions.
+            With 10+ years in the industry and multiple awards including 4 Times of India honors for best event management company,
+            we blend creativity, logistics and technology to deliver seamless experiences.
+          </p>
+          <p class="lead highlight">We obsess over details so every event becomes a conversation starter.</p>
+        </div>
+
+        <div class="founder-card">
+          <img src="Met Our Boss Megastar @chiranjeevikonidela  garu and wished him a very happy birthday 🔥 Love yo.jpg" alt="Ravikiran Jagupilla" class="founder-photo" />
+          <div class="founder-meta">
+            <strong>Ravikiran Jagupilla</strong>
+            <span>- Founder & Managing Director</span>
+          </div>
+        </div>
+      </div>
+
+      <div class="achievements">
+        <div class="ach-item" data-count="600"><div class="ach-value">0+</div><div class="ach-label">Events Delivered</div></div>
+        <div class="ach-item" data-count="4"><div class="ach-value">0</div><div class="ach-label">Times of India Awards</div></div>
+        <div class="ach-item" data-count="10"><div class="ach-value">0+</div><div class="ach-label">Years Experience</div></div>
+        <div class="ach-item" data-count="100"><div class="ach-value">0%</div><div class="ach-label">Client Satisfaction</div></div>
+      </div>
+
+      <div class="clients">
+        <h4>Our Clients</h4>
+        <div class="swiper clients-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide"><img src="client1.png" alt="Client 1"></div>
+            <div class="swiper-slide"><img src="client2.png" alt="Client 2"></div>
+            <div class="swiper-slide"><img src="client3.jpg" alt="Client 3"></div>
+            <div class="swiper-slide"><img src="Peter England.png" alt="Client 4"></div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- EXPERTISE Section -->
+  <section id="expertise" class="expertise-section section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Our Expertise</h2>
+        <p>From intimate weddings to large-scale brand activations — we make it happen.</p>
+      </div>
+
+      <div class="expertise-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="ceremony">Ceremonies</button>
+        <button class="filter-btn" data-filter="brand">Brand Promotions</button>
+        <button class="filter-btn" data-filter="movie">Movie Promotions</button>
+      </div>
+
+      <div class="expertise-grid">
+        <article class="card" data-type="wedding"><img src="s8.png" alt="Weddings"><div class="card-body"><h3>Weddings</h3><p>Full planning, design and production for memorable weddings.</p></div></article>
+
+        <article class="card" data-type="ceremony"><img src="s13.jpg" alt="Ceremonies"><div class="card-body"><h3>Ceremonies</h3><p>Traditional and contemporary ceremonies managed with cultural sensitivity.</p></div></article>
+
+        <article class="card" data-type="brand"><img src="corporate.png" alt="Brand Activations"><div class="card-body"><h3>Brand Promotions</h3><p>Experiential campaigns that drive recall and engagement.</p></div></article>
+
+        <article class="card" data-type="movie"><img src="movie event - Copy.jpg" alt="Movie Promotions"><div class="card-body"><h3>Movie Promotions</h3><p>Premieres, press meets and promotional caravans.</p></div></article>
+      </div>
+    </div>
+  </section>
+
+  <!-- SERVICES Section -->
+  <section id="services" class="services-section section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Services</h2>
+        <p>End-to-end services tailored for every event scale and style.</p>
+      </div>
+
+      <div class="services-grid">
+        <div class="accordion">
+          <div class="acc-item">
+            <button class="acc-trigger"><i class="fa fa-lightbulb"></i> Event Strategy <span class="acc-icon"><i class="fa fa-plus"></i></span></button>
+            <div class="acc-panel"><div class="acc-inner"><img src="event strategy.png" alt="Event Strategy" /><div><h4>Event Strategy</h4><p>From concept to KPI alignment — brand-first event strategy.</p></div></div></div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger"><i class="fa fa-handshake"></i> Design & Decoration
+            <Decoration/Decoration> <span class="acc-icon"><i class="fa fa-plus"></i></span></button>
+            <div class="acc-panel"><div class="acc-inner"><img src="s8.png" alt="Logistics" /><div><h4>Logistics & Operations</h4><p>Site management, vendor coordination and full operations support.</p></div></div></div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger"><i class="fa fa-lightbulb"></i> Stage, Lighting & Design <span class="acc-icon"><i class="fa fa-plus"></i></span></button>
+            <div class="acc-panel"><div class="acc-inner"><img src="stage,lighting.jpg" alt="Stage & Lighting" /><div><h4>Stage, Lighting & Design</h4><p>Creative stage sets, lighting design and scenic elements.</p></div></div></div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger"><i class="fa fa-film"></i> AV & Production <span class="acc-icon"><i class="fa fa-plus"></i></span></button>
+            <div class="acc-panel"><div class="acc-inner"><img src="av production.jpg" alt="AV & Production" /><div><h4>AV & Production</h4><p>Sound, projection, livestream and production management.</p></div></div></div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger"><i class="fa fa-users"></i> Artist & Talent Management <span class="acc-icon"><i class="fa fa-plus"></i></span></button>
+            <div class="acc-panel"><div class="acc-inner"><img src="entertainment.jpg" alt="Talent" /><div><h4>Artist & Talent Management</h4><p>Artists booking, contracts and on-ground liaison.</p></div></div></div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger"><i class="fa fa-instagram"></i> Catering <span class="acc-icon"><i class="fa fa-plus"></i></span></button>
+            <div class="acc-panel"><div class="acc-inner"><img src="catering.jpg" alt="Venue" /><div><h4>Venue Sourcing</h4><p>Finding the perfect space for your vision and budget.</p></div></div></div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger"><i class="fa fa-bullhorn"></i> Event Marketing <span class="acc-icon"><i class="fa fa-plus"></i></span></button>
+            <div class="acc-panel"><div class="acc-inner"><img src="service1.png" alt="Marketing" /><div><h4>Event Marketing</h4><p>Audience outreach, digital campaigns and PR coordination.</p></div></div></div>
+          </div>
+
+          <div class="acc-item">
+            <button class="acc-trigger"><i class="fa fa-handshake"></i> Sponsorship Management <span class="acc-icon"><i class="fa fa-plus"></i></span></button>
+            <div class="acc-panel"><div class="acc-inner"><img src="sponsorship management.jpg" alt="Sponsorship" /><div><h4>Sponsorship Management</h4><p>Sourcing and managing sponsor relationships and deliverables.</p></div></div></div>
+          </div>
+
+        </div>
+
+        <div class="service-cta">
+          <h3>Need a tailored service?</h3>
+          <p>Choose a service and contact us for a custom quote.</p>
+          <a href="#contact" class="btn btn-primary js-cta" data-scroll>Contact for Service</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- PORTFOLIO Section -->
+  <section id="portfolio" class="portfolio-section section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Portfolio</h2>
+        <p>Selected works across formats and scales.</p>
+      </div>
+
+      <div class="portfolio-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="wedding">Weddings</button>
+        <button class="filter-btn" data-filter="corporate">Corporate</button>
+        <button class="filter-btn" data-filter="brand">Brand</button>
+        <button class="filter-btn" data-filter="movie">Movie</button>
+      </div>
+
+      <div class="portfolio-grid">
+        <!-- Expanded portfolio: more than 4 items per filter to satisfy request -->
+        <figure class="portfolio-item" data-type="wedding"><img src="p1.jpg" alt="Wedding - Sparks Media"><figcaption><h4>Elegant Lakeside Wedding</h4><span>Weddings</span></figcaption></figure>
+        <figure class="portfolio-item" data-type="wedding"><img src="d1.jpg" alt="Wedding 2"><figcaption><h4>Beachside Celebration</h4><span>Weddings</span></figcaption></figure>
+        <figure class="portfolio-item" data-type="wedding"><img src="d2.jpg" alt="Wedding 3"><figcaption><h4>Temple Ceremony</h4><span>Weddings</span></figcaption></figure>
+        <figure class="portfolio-item" data-type="wedding"><img src="s8.png" alt="Wedding 4"><figcaption><h4>Grand Ballroom</h4><span>Weddings</span></figcaption></figure>
+
+        <figure class="portfolio-item" data-type="brand"><img src="corporate.png" alt="Brand Activation"><figcaption><h4>Brand Activation - Product Launch</h4><span>Brand</span></figcaption></figure>
+        <figure class="portfolio-item" data-type="brand"><img src="vip.png" alt="Brand 2"><figcaption><h4>Street Activation</h4><span>Brand</span></figcaption></figure>
+        <figure class="portfolio-item" data-type="brand"><img src="service1.png" alt="Brand 3"><figcaption><h4>Pop-Up Event</h4><span>Brand</span></figcaption></figure>
+        <figure class="portfolio-item" data-type="brand"><img src="b1.jpg" alt="Brand 4"><figcaption><h4>Store Launch</h4><span>Brand</span></figcaption></figure>
+
+        <figure class="portfolio-item" data-type="movie"><img src="movie1.jpg" alt="Movie Promotion"><figcaption><h4>Film Premiere</h4><span>Movie</span></figcaption></figure>
+        <figure class="portfolio-item" data-type="movie"><img src="s3.jpg" alt="Movie 2"><figcaption><h4>Press Meet</h4><span>Movie</span></figcaption></figure>
+
+        <figure class="portfolio-item" data-type="corporate"><img src="s8.png" alt="Corporate Event"><figcaption><h4>Corporate Summit</h4><span>Corporate</span></figcaption></figure>
+        <figure class="portfolio-item" data-type="corporate"><img src="s14.jpg" alt="Corporate 2"><figcaption><h4>Product Roundtable</h4><span>Corporate</span></figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- TESTIMONIALS Section (under portfolio) -->
+  <section id="testimonials" class="testimonials-section section">
+    <div class="container">
+      <div class="section-header">
+        <h2>What our clients say</h2>
+        <p>Real feedback from clients across weddings, corporate events and brand activations.</p>
+      </div>
+
+      <div class="swiper testimonials-swiper">
+        <div class="swiper-wrapper">
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img class="testimonial-avatar" src="test1.png" alt="Priya & Rohit">
+              <div class="testimonial-body">
+                <p class="quote">"Sparks Media turned our wedding into a fairy tale — flawless execution and heartfelt touches."</p>
+                <div class="meta"><strong>Priya & Rohit</strong><span>— Wedding, Vijayawada</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img class="testimonial-avatar" src="test2.jpg" alt="Rahul Menon">
+              <div class="testimonial-body">
+                <p class="quote">"Professional team, on-time delivery and innovative ideas — highly recommend for brand events."</p>
+                <div class="meta"><strong>Rahul Menon</strong><span>— Brand Activation, Hyderabad</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img class="testimonial-avatar" src="test3.jpg" alt="Sunita R.">
+              <div class="testimonial-body">
+                <p class="quote">"From logistics to talent, every detail was handled with care. Exceptional service."</p>
+                <div class="meta"><strong>Sunita R.</strong><span>— Corporate Summit, Vijayawada</span></div>
+              </div>
+            </div>
+          </div>
+
+          <div class="swiper-slide">
+            <div class="testimonial-card">
+              <img class="testimonial-avatar" src="test4.jpg" alt="Anil K.">
+              <div class="testimonial-body">
+                <p class="quote">"Remarkable creativity and flawless coordination — our event got massive PR attention."</p>
+                <div class="meta"><strong>Anil K.</strong><span>— Movie Promotion, Chennai</span></div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="testimonials-pagination swiper-pagination"></div>
+      </div>
+
+      <!-- Instagram embeds as subsection inside testimonials (compact slider) -->
+      <div class="insta-subsection">
+        <h4 class="sub-title">From our Instagram</h4>
+        <div class="swiper insta-swiper">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide insta-slide">
+              <iframe src="" referrerpolicy="0" allowtransparency="true" allow="encrypted-media" title="Insta 1"></iframe>
+            </div>
+            <div class="swiper-slide insta-slide">
+             <iframe src="PETER ENGLAND Showroom Launch In Jaghayapeta Event By @teamsparksmedia - Copy.mp4" frameborder="0" allowtransparency="true" allow="encrypted-media" title="Insta 3"></iframe>
+            </div>
+            <div class="swiper-slide insta-slide">
+              <iframe src="https://www.instagram.com/reel/REEL_ID3/embed" frameborder="0" allowtransparency="true" allow="encrypted-media" title="Insta 3"></iframe>
+            </div>
+            <div class="swiper-slide insta-slide">
+              <iframe src="https://www.instagram.com/reel/REEL_ID4/embed" frameborder="0" allowtransparency="true" allow="encrypted-media" title="Insta 4"></iframe>
+            </div>
+          </div>
+          <div class="insta-pagination swiper-pagination"></div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- GALLERY Section -->
+  <section id="gallery" class="gallery-section section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Gallery</h2>
+        <p>Browse event moments and media from our recent projects.</p>
+      </div>
+
+      <div class="gallery-filters">
+        <button class="filter-btn active" data-filter="all">All</button>
+        <button class="filter-btn" data-filter="strategy">Decors</button>
+        <button class="filter-btn" data-filter="logistics">Temple sets</button>
+        <button class="filter-btn" data-filter="stage">Haldi</button>
+        <button class="filter-btn" data-filter="av">Engagements</button>
+        <button class="filter-btn" data-filter="talent">Birthday</button>
+        <button class="filter-btn" data-filter="venue">Parties</button>
+        <button class="filter-btn" data-filter="marketing">Activation</button>
+        <button class="filter-btn" data-filter="sponsorship">Movie events</button>
+      </div>
+
+      <div class="gallery-grid">
+        <div class="gallery-item" data-type="strategy"><img src="s1.jpg" width="100%" height="auto" alt="Strategy"></div>
+        <div class="gallery-item" data-type="logistics"><img src="decor5.jpg" width="100%" height="auto" alt="Logistics"></div>
+        <div class="gallery-item" data-type="stage"><img src="s8.png" width="100%" height="auto" alt="Stage"></div>
+        <div class="gallery-item" data-type="av"><img src="s2.jpg" width="100%" height="auto"alt="AV"></div>
+        <div class="gallery-item" data-type="marketing"><img src="s18.jpg"width="100%" height="auto" alt="Marketing"></div>
+      </div>
+    </div>
+  </section>
+
+  <!-- CONTACT Section -->
+  <section id="contact" class="contact-section section">
+    <div class="container">
+      <div class="section-header">
+        <h2>Contact</h2>
+        <p>Let's plan something unforgettable. Reach out to Sparks Media.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form id="contact-form" class="contact-form" action="#" method="post" novalidate>
+          <div class="form-row">
+            <input type="text" name="name" placeholder="Your name" required />
+            <input type="email" name="email" placeholder="Email" required />
+          </div>
+          <div class="form-row">
+            <input type="tel" name="phone" placeholder="Phone" />
+            <input type="text" name="company" placeholder="Company / Venue (optional)" />
+          </div>
+          <textarea name="message" placeholder="Tell us about your event..." required></textarea>
+          <div class="form-row form-actions">
+            <button type="submit" class="btn btn-primary js-cta">Send Message</button>
+            <a href="mailto:hello@sparksmedia.example" class="btn btn-outline">hello@sparksmedia.example</a>
+          </div>
+        </form>
+
+        <aside class="contact-info">
+          <h3>Office — Vijayawada</h3>
+          <p><strong>Address:</strong> 40-5/2-2A, Tikkle Rd, Acharya Ranga Nagar, NGO Colony, Vijayawada, Andhra Pradesh 520010</p>
+          <p><strong>Phone:</strong> <a href="tel:+919999999999">+91 8121777721</a></p>
+          <p><strong>Email:</strong> <a href="mailto:hello@sparksmedia.example">hello@sparksmedia.example</a></p>
+
+          <div class="map-placeholder" aria-hidden="true">
+            <img src="maps.png" alt="Map placeholder" />
+          </div>
+
+          <div class="contact-quick">
+            <h4>Quick Contact</h4>
+            <p>Prefer WhatsApp? <a href="https://wa.me/919999999999" target="_blank" rel="noopener">Message us</a></p>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-inner">
+      <div class="footer-col">
+        <img src="ChatGPT Image Dec 20, 2025, 02_38_49 PM.png" alt="Sparks Media" class="logo-sm" />
+        <p>Creating moments that spark conversations. Based in Vijayawada, serving South India.</p>
+      </div>
+
+      <div class="footer-col">
+        <h4>Quick links</h4>
+        <ul>
+          <li><a href="#expertise" data-scroll>Expertise</a></li>
+          <li><a href="#services" data-scroll>Services</a></li>
+          <li><a href="#portfolio" data-scroll>Portfolio</a></li>
+          <li><a href="#gallery" data-scroll>Gallery</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h4>Follow us</h4>
+        <div class="socials">
+          <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+          <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+          <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+        </div>
+        <small>© <span id="year"></span> Sparks Media — All rights reserved</small>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Floating Contact CTA -->
+  <a href="#contact" class="floating-contact js-floating" data-scroll aria-label="Contact Sparks Media">
+    <i class="fa fa-envelope"></i>
+    <span>Contact</span>
+  </a>
+
+  <!-- Micro-action popups (whatsapp, call, mail) -->
+  <div id="micro-actions" class="micro-actions" aria-hidden="true">
+    <a class="micro-btn micro-ws" href="https://wa.me/919999999999" target="_blank" title="WhatsApp" rel="noopener"><i class="fab fa-whatsapp"></i></a>
+    <a class="micro-btn micro-call" href="tel:+919999999999" title="Call"><i class="fa fa-phone"></i></a>
+    <a class="micro-btn micro-mail" href="mailto:hello@sparksmedia.example" title="Email"><i class="fa fa-envelope"></i></a>
+  </div>
+
+  <!-- Scripts -->
+  <script src="https://unpkg.com/swiper@9/swiper-bundle.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/gsap.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.2/ScrollToPlugin.min.js"></script>
+
+  <script src="main.js"></script>
+</body>
+</html>
